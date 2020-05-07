@@ -1,0 +1,377 @@
+.toprow{
+    background-color: rgb(57, 128, 187);
+    padding: 5px 0px;
+    display: flex;
+        
+}
+
+.sociallogo{
+    padding: 10px;
+    padding-left: 50px;
+}
+.sociallogo img {
+    width: 20px;
+    height:15px;
+    margin: 2px 20px 0px 10px;
+}
+.slogan{
+    padding: 10px;
+    padding-left: 80px;
+}
+.slogan span{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+.donate{
+    padding-top: 5px;
+    padding-left:60px;
+}
+
+.donate button{
+    background-color:white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 10px 8px 5px   ;
+
+}
+.donate a{
+    color: green;
+    text-decoration: none;
+}
+
+.bottomrow{
+    background-color:whitesmoke;
+    padding: 5px;
+    border: 1px solid rgb(223, 220, 220)      ;  
+    display: flex;
+}
+.bottomrow div,
+.bottomrow ul,
+.bottomrow li {
+    display:inline-block;
+    margin: 4px auto;
+    padding: 5px 50px 0px 5px;
+}
+.bottomrow a{
+    color: black;
+}
+.bottomrow a:hover,
+.bottomrow a:active {
+    color: white;
+    background-color: royalblue;
+}
+.one{
+        
+    padding-left: 50px;
+    flex: 2;
+}
+.one img{
+    width: 220px;
+    height: 60px;
+    background-color: whitesmoke;
+}
+.two{
+    flex: 3;
+}
+.two button{
+    background-color: rgb(57, 128, 187);
+    font-size: 14px;
+    border-radius: 20px ;    
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    margin-top: 8px;
+}
+.two a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.icon img{
+ width:40px;
+ height:30px;
+    
+
+}
+div.content{
+  margin: auto;
+  padding: 10px;
+  width: 70%;  
+} 
+
+div.content p{
+    color: #666666;
+    font-size:15px;
+    font-family:sans-serif;
+    
+}
+
+.navigator {
+    margin: 15px 0px 15px 20px;
+
+}
+
+#ticker {
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    margin: 5px 6%;
+}
+#operations {
+    background-color:rgb(28, 71, 199);
+    text-align: center;
+    display: flex;  
+    padding: 30px;
+    justify-content: space-around;
+    margin:50px auto;
+    height: 300px;
+}
+.ope{
+    display: inline-block;
+    color: white;
+    text-align:center;
+    padding: 200px auto;
+    margin: 0;
+    flex: 3;
+}
+.ope img{
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin: 20% auto auto auto;
+}
+.ope span{
+    color: lightgreen;
+}
+.ope h1{
+    font: size 600px;;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+}
+#departments {
+    text-align: center;
+}
+
+.start{
+    color: blue;
+
+}
+.end{
+    color: green;
+}
+.heading img{
+    width: 30px;
+    height: 30px;
+
+}
+.heading-start{
+    color: blue;
+}
+.heading-end{
+    color: green;
+}
+.heading{
+    text-align: center;
+    font-family: serif;
+    font-style: inherit;
+    font-weight: 900;    
+}
+.dept {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin: 40px;
+    padding: 40px 10px 20px 40px;
+    box-shadow: 2px 2px 25px lightgray;
+}
+
+#project-n-event {
+    display: flexbox;
+    background-color: white;
+    /* height: 100vw; */
+}
+
+#project-n-event>div {
+    margin: auto 5%;
+    padding: 20px 5%;
+}
+
+#projects {
+    display: inline-block;
+    width: 70%;
+    /* float: left; */
+}
+
+.proj {
+    display: inline-flex;
+    width: 40%;
+    padding: 0.5vw;
+    margin: 1%;
+    background-color: #f8f8f8;
+}
+
+.proj>a {
+    display: inline-block;
+    margin: 10px 25px 0px 5px;
+}
+
+#events {
+    width: 25%;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#events p {
+    padding: 7px;
+}
+
+#project-n-event .heading {
+    margin: 1%;
+    padding: 1%;
+}
+
+#gallery {
+    text-align: center;
+}
+
+.gallery {
+    width: 19%;
+}
+
+footer {
+    background-color: #25272E;
+    text-align: center;
+    color: lightgray;
+}
+
+footer h4 {
+    color: lightgray;
+}
+
+#details {
+    display: inline-block;
+    text-align: left;
+    margin: 20px auto;
+    width: 25%;
+}
+
+#details ul {
+    list-style-image: url("../images/phone-icon.png");
+
+}
+
+#links {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+}
+
+#connect {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+}
+
+#connect img {
+    width: 20px;
+    height: 20px;
+}
+
+#connect li {
+    display: inline-block;
+}
+
+#connect ul {
+    padding: initial;
+}
+
+#details,
+#links,
+#connect {
+    padding: 30px 20px;
+}
+
+#bottom-line {
+    background-color: royalblue;
+}
+
+#bottom-line p {
+    font-size: small;
+
+}
+
+#details,
+#links,
+#connect {
+    display: flexbox;
+}
+
+#scroller img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #bottom-header a {
+        display: block;
+        clear: both;
+        margin: 10px;
+    }
+
+    .logo{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .navigator {
+        display: grid;
+        margin: auto;
+        width: 100%;
+    }
+
+    #events {
+        display: block;
+        margin: auto;
+        width: auto;
+    }
+
+    #projects {
+        width: auto;
+    }
+
+    #top-header {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        text-align: left;
+    }
+
+    #detalis,
+    #links,
+    #connect {
+        display: block;
+        padding: 10px;
+        width: auto;
+    }
+
+    #details * {
+        width: 350px;
+        margin: auto;
+        padding: 5px;
+    }
+
+    #operations {
+        display: block;
+    }
+}
